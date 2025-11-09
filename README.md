@@ -10,6 +10,14 @@
 ---
 
 <p align="center">
+  <img src="https://github.com/not-Ushna/Pixel-Expense-Tracker/assets/preview.gif" alt="Pixel Expense Tracker Preview" width="700"/>
+  <br>
+  <i>🎞️ Terminal UI Preview — replace this image link when ready!</i>
+</p>
+
+---
+
+<p align="center">
 <pre>
 ██████╗ ██╗██╗  ██╗███████╗██╗        ███████╗██╗  ██╗██████╗ ███╗   ██╗███████╗
 ██╔══██╗██║██║ ██╔╝██╔════╝██║        ██╔════╝██║  ██║██╔══██╗████╗  ██║██╔════╝
@@ -21,48 +29,90 @@
 </p>
 
 <p align="center">
-  <b>A terminal-based Expense Tracker built with Java &amp; Lanterna</b><br>
-  <i>Created by <a href="https://github.com/not-Ushna">not-Ushna</a> 💻</i>
+  <b>💸 A pixel-inspired terminal Expense Tracker built with Java & Lanterna 💸</b><br>
+  <i>Created by <a href="https://github.com/not-Ushna">not-Ushna</a> 🜲 Arch Linux • Minimalist • Developer</i>
 </p>
 
 ---
 
-## 🌀 Animated Overview
+## 🌀 Overview
 
-> 🎬 *When you launch it, the terminal fades in line-by-line with pixel-style ASCII text,  
-> lights up the UI table, and lets you track your life’s chaos in minimalist motion.*
+> 🎬 When you launch **Pixel Expense Tracker**, the terminal greets you with  
+> animated ASCII text, fades into a clean Lanterna interface, and tracks your chaos — beautifully.
+
+This is a lightweight, offline **TUI (Text-based User Interface)** expense manager  
+for those who live inside the terminal but still crave a little ✨ *aesthetic order.*
 
 ---
 
 ## 🌈 Features
-- 💰 Add, edit, and view expenses in a text-based GUI  
+- 💰 Add, edit, and view expenses with ease  
 - 🗂️ Filter by category  
-- 📊 Instant total calculation  
-- 🖥️ Lanterna-powered color terminal UI  
-- 💾 Offline JSONL storage — no setup needed  
-- ⚙️ Works on Arch, Windows, macOS  
+- 📊 Auto-calculated totals  
+- 🎨 Smooth ASCII intro animation  
+- 💾 Offline JSONL file storage (no DB required)  
+- ⚙️ Cross-platform (Arch • macOS • Windows)
 
 ---
 
 ## ⚙️ Tech Stack
-| Tool | Use |
-|------|-----|
-| ☕ **Java 25** | Main language |
-| 🧩 **Lanterna 3.1.1** | Terminal UI |
-| 🏗️ **Gradle 9.x** | Build system |
-| 💾 **JSONL File** | Local data storage |
+
+| Tool | Purpose |
+|------|----------|
+| ☕ **Java 25** | Core programming language |
+| 🧩 **Lanterna 3.1.1** | Text-based GUI toolkit |
+| 🏗️ **Gradle 9.x** | Build & dependency management |
+| 💾 **JSONL** | Local data persistence |
 
 ---
 
-## 🧰 Setup & Run
+## 🧰 Installation & Run
 
 ```bash
-# Clone the repository
+# Clone this repo
 git clone https://github.com/not-Ushna/Pixel-Expense-Tracker.git
 cd Pixel-Expense-Tracker
 
-# Build the project
+# Build
 ./gradlew build
 
-# Run with animation ✨
+# Run (with pixel animation ✨)
+
 ./gradlew run
+
+Once launched, the app displays your expenses in a colorful, interactive terminal UI.
+```
+🖼️ Terminal Preview
+```bash
+┌────────────────────────────────────────────┐
+│         PIXEL EXPENSE TRACKER 💸          │
+├────────────────────────────────────────────┤
+│ Date        | Category | Description | Amount │
+│----------------------------------------------│
+│ 2025-11-09  | Food     | Ramen       |  ₹250  │
+│ 2025-11-10  | Travel   | Metro Pass  |  ₹100  │
+└────────────────────────────────────────────┘
+Total: ₹350
+```
+🌟 Upcoming Enhancements
+
+    🪄 Typing-based ASCII intro animation
+
+    📈 Monthly reports & analytics
+
+    🧾 CSV export option
+
+    🌓 Terminal theme switcher (Dark/Light)
+
+🧑‍💻 Author
+
+not-Ushna
+
+
+🜲 Arch Linux • 💻 Java Developer • 🖤 Terminal Aesthetic
+
+    “Code should feel as good as it looks.”
+
+<p align="center"> ⭐ Star this repo if you love terminal art! </p>
+
+<img src="https://github.com/not-Ushna/Pixel-Expense-Tracker/assets/preview.gif">
